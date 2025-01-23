@@ -11,6 +11,16 @@
     margin: 0 auto;
 }
 
+.btn-primary {
+    font-weight: 700;
+    color: white;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border: 1px solid #E02C6D;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 
 /* navbar styles */
 
@@ -49,4 +59,57 @@
 
 .hamburger-icon {
     display: none;
+}
+
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 582px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.banner-title {
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.banner-description {
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.banner-content .btn-primary {
+    border-radius: 40px;
+}
+
+.right-arrow-icon {
+    margin-left: 5px;
+}
+
+.banner-content .btn-primary:hover {
+    border: 1px solid #3A3A3A;
+    color: #3A3A3A;
+    background-color: transparent;
+}
+
+.banner-img {
+    width: fit-content;
+    background-image: url('../images/Circle design.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-img img {
+    width: 100%;
 }

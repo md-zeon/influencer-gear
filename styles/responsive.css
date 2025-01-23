@@ -26,6 +26,28 @@
     .hamburger-icon {
         display: block;
     }
+
+    /* banner styles */
+
+    .banner {
+        flex-direction: column-reverse;
+        padding: 20px 16px;
+        gap: 30px;
+    }
+
+    .banner-content {
+        text-align: center;
+        gap: 10px;
+    }
+
+    .banner-title {
+        font-size: 28px;
+    }
+
+    .banner-description {
+        font-size: 14px;
+        opacity: 0.8;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -39,11 +61,36 @@
         padding: 40px 0;
     }
 
+    .logo {
+        font-size: 4.5vw;
+    }
+
     .nav-links {
         display: none;
     }
     
     .hamburger-icon {
         display: block;
+    }
+
+    /* banner styles */
+
+    .banner {
+        gap: 24px;
+    }
+    .banner-content {
+        max-width: 46vw;
+    }
+
+    .banner-title {
+        font-size: 4vw;
+    }
+
+    .banner-description {
+        font-size: 1.4vw;
+    }
+
+    .banner-content .btn-primary {
+        font-size: 12px;
     }
 }
