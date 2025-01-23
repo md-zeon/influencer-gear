@@ -1,0 +1,49 @@
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    
+    
+    /* navbar styles */
+    
+    .navbar, .navbar-right, .nav-links {
+        gap: 10px;
+    }
+    
+    .navbar {
+        padding: 30px 16px;
+        border-bottom: 1px solid rgba(58, 58, 58, 0.22);
+    }
+    
+    .logo {
+        font-size: 1rem;
+    }
+
+    .nav-links, .search-icon {
+        display: none;
+    }
+    
+    .hamburger-icon {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    /* navbar styles */
+
+    .navbar, .navbar-right, .nav-links {
+        gap: 20px;
+    }
+
+    .navbar {
+        padding: 40px 0;
+    }
+
+    .nav-links {
+        display: none;
+    }
+    
+    .hamburger-icon {
+        display: block;
+    }
+}
