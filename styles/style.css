@@ -203,3 +203,38 @@ section {
     color: #787885;
     font-family: "Inter", Arial, Helvetica, sans-serif;
 }
+
+/* features Styles */
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 96px;
+}
+
+.feature-img {
+    min-width: fit-content;
+}
+
+.feature-img img {
+    width: 100%;
+}
+
+.feature-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.feature-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+}
+
+.feature-description {
+    color: #6C6C6C;
+    line-height: 28px;
+    font-weight: 700;
+}

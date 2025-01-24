@@ -48,6 +48,36 @@
         font-size: 14px;
         opacity: 0.8;
     }
+
+    /* Collection Styles */
+    .section-title {
+        font-size: 16px;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    /* features Styles */
+
+    .features {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .feature-content {
+        text-align: center;
+    }
+
+    .feature-title {
+        font-size: 32px;
+    }
+    
+    .feature-description {
+        font-size: 12px;
+        line-height: 1.7;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -92,5 +122,25 @@
 
     .banner-content .btn-primary {
         font-size: 12px;
+    }
+
+    /* Collection Styles */
+
+    .card-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    /* features Styles */
+    .features {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .feature-img {
+        width: 100%;
+    }
+
+    .feature-content {
+        text-align: center;
     }
 }
