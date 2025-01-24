@@ -113,3 +113,19 @@
 .banner-img img {
     width: 100%;
 }
+
+
+/* sponsor styles */
+
+.sponsors {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 16px;
+}
+
+.sponsors img {
+    width: 100%;
+}
