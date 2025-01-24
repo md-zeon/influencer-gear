@@ -238,3 +238,38 @@ section {
     line-height: 28px;
     font-weight: 700;
 }
+
+/* footer styles */
+
+footer {
+    text-align: center;
+    background-color: #0A0826;
+}
+
+.footer-content {
+    max-width: 270px;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Manrope", sans-serif;
+    color: #D9DBE1;
+    margin: 15px 0;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #D9DBE1;
+}
